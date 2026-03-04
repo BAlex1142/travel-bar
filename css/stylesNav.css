@@ -1,0 +1,83 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    padding: 1rem 2rem;
+    position: relative;
+}
+
+.logo {
+    text-decoration: none;
+}
+  
+.logo-title {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+  
+.travel {
+    color: #212121;
+}
+
+.bar {
+    color: #7AB730;
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+    font-weight: normal;
+}
+  
+.nav-link.active {
+    color: #7AB730;
+}
+
+@media (max-width: 900px) {
+    
+    /* Показываем кнопку-гамбургер */
+    .menu-toggle {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 2rem;
+        cursor: pointer;
+        padding: 0;
+        margin-left: auto;
+    }
+  
+    /* Меню скрыто по умолчанию на мобильных */
+    .navbar-menu {
+        position: absolute;
+        top: calc(100% + 10px);
+        right: 20px;
+        background-color: #f8f9fa;
+        flex-direction: column; 
+        align-items: flex-start; 
+        padding: 1rem; 
+        box-shadow: rgba(0,0,0,0.1) 0px 4px 8px; 
+        display: none;
+        width: max-content; 
+        z-index: 1000;
+    }
+  
+    .navbar-menu.show {
+        display: flex;
+    }
+}

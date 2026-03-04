@@ -1,0 +1,122 @@
+.form-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+.contact-form-box {
+    position: relative;
+    width: 100%;
+    padding: 30px;
+    max-width: 700px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-subtitle {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #7AB730;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+  
+.contact-title {
+    font-size: calc(1.375rem + 1.5vw) !important;
+    font-weight: 700 !important;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #222;
+}
+
+.contact-form-wrapper {
+    display: flex;
+    justify-content: center;
+}
+  
+.contact-form-box {
+    width: 100%;
+    max-width: 800px;
+}
+  
+/* Форма */
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+  
+/* Строка с двумя полями (имя и email) */
+.contact-row {
+    display: flex;
+    gap: 20px;
+}
+  
+/* Колонки внутри строки */
+.contact-column {
+    flex: 1; /* равная ширина для обоих полей */
+}
+  
+/* Поля ввода и textarea */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box; /* чтобы padding не увеличивал ширину */
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    outline: none;
+    color: #495057;
+    background-color: #fff;
+    border-color: #7AB730;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(122, 183, 48, 0.25);
+}
+
+.contact-full-width {
+    width: 100%;
+}
+
+textarea {
+    max-width: 738px;
+    width: 100%;
+}
+  
+.contact-button {
+    display: flex;
+    justify-content: center; /* центрировать кнопку по горизонтали */
+}
+  
+button[type="submit"] {
+    background-color: #7AB730;
+    color: #fff;
+    padding: 14px 30px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: .3s all;
+}
+
+button[type="submit"]:hover{
+    background-color: #035316
+}
+
+@media(max-width:768px){
+    .contact-row{
+        flex-direction: flex-column
+    }
+}

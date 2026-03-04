@@ -1,0 +1,113 @@
+.destinations-section {
+    padding: 40px 0;
+    background-color: #f8f9fa;
+}
+  
+.destinations-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+.destinations-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+  
+.destinations-subtitle {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #7AB730;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+  
+.destinations-title {
+    font-size: calc(1.375rem + 1.5vw);
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #222;
+}
+  
+.destinations-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+  
+.destination-col {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    box-sizing: border-box;
+    position: relative;
+    padding-right: 15px;
+    padding-left:15px;
+    margin-bottom:1.5rem;
+  
+}
+
+@media(max-width:768px){
+    .destination-col {
+        flex:1 1 calc(50% -10px);
+    }
+}
+
+.destination-card {
+    margin-bottom:0.5rem;
+    position: relative ;
+    overflow:hidden;
+}
+
+.image-wrapper {
+    overflow: hidden;
+    width: 100%; 
+    height: auto;
+}
+  
+  
+.destination-img {
+    width: 100%;
+    max-width: 330px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    transition: transform 1s ease;
+}
+
+.image-wrapper:hover .destination-img {
+    transform: scale(1.2);
+}
+
+.destination-link {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transition: .5s;
+    z-index: 1;
+    color: #fff;
+    text-decoration: none;
+}
+
+.destination-name {
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin: 0; 
+}
+
+.destination-count {
+      margin:0;
+      font-size:1rem;
+}
