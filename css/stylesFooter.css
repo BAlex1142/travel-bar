@@ -3,50 +3,41 @@
     color: rgba(255, 255, 255, 0.5);
     padding: 15px;
 }
-
 .footer-inner {
     max-width: 1200px;
     margin: 0 auto;
 }
-
 .footer-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
 }
-
 .footer-column {
     flex: 1 1 250px; 
     min-width: 200px;
 }
-
 .logo-section {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .travel-text {
     color: #ffffff;
     text-decoration: none;
 }
-
 .bar-text {
     color: #7AB730;
     text-decoration: none;
 }
-
 .footer-description {
     margin-top: 10px;
     font-size: 14px;
     text-align: center;
 }
-  
 .social-icons {
     margin-top: 15px;
 }
-  
 .social-btn {
     display: inline-flex;
     align-items: center;
@@ -59,21 +50,17 @@
     transition: background-color .3s, border-color .3s, color .3s;
     text-decoration: none;
 }
-  
 .social-btn:hover {
     background-color: #7AB730;
     border-color: #7AB730;
     color: #fff;
 }
-
 .social-btn i {
     line-height: 1;
 }
-
 .links-section {
     padding-left: 130px;
 }
-
 .section-heading,
 .section-title {
     font-size: 18px;
@@ -81,12 +68,10 @@
     margin-bottom: 10px;
     font-weight: bold;
 }
-  
 .links-list {
     display:flex;
     flex-direction:column;
 }
- 
 .link-item {
     color: #fff;
     text-decoration: none;
@@ -94,40 +79,32 @@
     display: flex;
     align-items: center;
 }
-
 .link-item i {
     margin-right: 8px; 
     color: #ccc; 
 }
-
 .link-item:hover {
     color: #ddd; 
 }
-
 .footer-column.contact-section {
     padding-left: 90px;
 }
-
 .contact-section p {
     margin-bottom: 8px; 
     font-size: 14px; 
     display: flex;
     align-items: center;
 }
-  
 .contact-section i {
     margin-right: 8px; 
     color: #ccc; 
 }
-
-/* Нижняя часть футера */
 .footer-bottom-container {
     margin-top: 15px; 
     border-top: 1px solid #444;
     padding-top: 15px; 
     width: auto;
 }
-  
 .footer-bottom-row {
     display: flex; 
     flex-wrap: flex-start; 
@@ -135,24 +112,20 @@
     align-items: center; 
     gap: 15px;
 }
-  
 .footer-copyright-text,
 .footer-designer-credit {
     font-size: 14px; 
     color: #aaa; 
     width: auto;
 }
-
 .footer-link {
     color: #fff; 
     text-decoration: none; 
 }
-
 .footer-link:hover {
     text-decoration: none;
     border-bottom :1px solid #fff ;
 }
-
 @media (max-width:768px) {
     .footer-row,
     .footer-bottom-row {
@@ -161,12 +134,10 @@
         text-align: center;
         gap: 10px ;
     }
-
     body > div.footer-wrapper > div.footer-inner > div > div.footer-column.links-section > h5,
     body > div.footer-wrapper > div.footer-inner > div > div.footer-column.contact-section > h5 {
         text-align: left;
     }
-    
     .footer-bottom-container {
         display: none;
     }

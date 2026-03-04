@@ -1,36 +1,27 @@
-/* Общие стили для контейнера */
 .carousel-container {
     position: relative;
     width: 100%;
     height: 80vh;
     overflow: hidden;
 }
-
-/* Слайды */
 .slides {
     display: flex;
     height: 100%;
     transition: transform 0.5s ease-in-out;
 }
-
-/* Каждый слайд */
 .slide {
     min-width: 100%;
     height: 100%;
     position: relative;
 }
-
-/* Изображение на весь экран */
 .slide img {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* чтобы изображение заполняло весь слайд без искажения */
+    object-fit: cover;
 }
-
-/* Текст по центру */
 .caption {
     position: absolute;
     top: 50%;
@@ -40,8 +31,6 @@
     text-align: center;
     max-width: 90%;
 }
-
-/* Заголовки и кнопка внутри caption */
 .caption h4 {
     color: #fff;
     text-transform: uppercase;
@@ -49,13 +38,11 @@
     margin-bottom: 10px;
     font-weight: 600;
 }
-
 .caption h1 {
     font-size: 3.5em;
     margin-bottom: 20px;
     font-weight: 700;
 }
-
 .btn {
     display: inline-block;
     font-weight: 400;
@@ -71,8 +58,6 @@
     background-color: #7AB730;
     border-color: #7AB730;
 }
-
-/* Навигационные кнопки */
 button.prev,
 button.next {
     position:absolute;
@@ -86,11 +71,9 @@ button.next {
     cursor: pointer;
     z-index: 10;
 }
-
 button.prev {
     left: 10px;
 }
-
 button.next {
     right: 10px;
 }

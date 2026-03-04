@@ -2,7 +2,6 @@
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
      url('../img/carousel-2.jpg'), no-repeat center center;
     background-size: cover;
-
     height: 400px;
     width: 100%;
     padding-right: 15px;
@@ -10,7 +9,6 @@
     margin-right: auto;
     margin-left: auto;
 }
-
 .header-inner {
     display: flex;
     align-items: center;
@@ -18,14 +16,12 @@
     flex-direction: column;
     min-height: 400px;
 }
-
 .header-title {
     color: #fff;
     text-transform: uppercase;
     margin: 0;
     font-size: 3rem;
 }
-
 .breadcrumb {
     display: inline-flex;
     text-transform: uppercase;
@@ -33,20 +29,16 @@
     align-items: center;
     justify-content: center;
 }
-
 .breadcrumb-item {
     margin-right: 8px;
 }
-
 .breadcrumb-link {
     text-decoration: none;
     color: #fff; 
 }
-
 .breadcrumb-link:hover {
     color: #7AB730; 
 }
-
 .breadcrumb-separator {
     margin-right: 8px;
 }

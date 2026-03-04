@@ -1,18 +1,15 @@
 .guides-section {
     padding: 15px;
 }
-
 body > div.guides-section > div {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
-
 .section-header {
     text-align: center;
     margin-bottom: 40px;
 }
-  
 .guides-section-subtitle {
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -22,7 +19,6 @@ body > div.guides-section > div {
     margin-bottom: 0.5rem;
     font-weight: 500;
 }
-  
 .guides-section-title {
     font-size: calc(1.375rem + 1.5vw) !important;
     font-weight: 700 !important;
@@ -30,39 +26,32 @@ body > div.guides-section > div {
     margin-bottom: 0.5rem;
     color: #222;
 }
-
 .guides-row {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
 }
-
 .guide-card {
     display: block;
     max-width: 230px;
 }
-
 .guide-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
-
 .image-container {
     position: relative;
     display: inline-block;
 }
-  
 .guide-image {
     width: 100%;
     height: auto;
     display: block;
 }
-
 .image-container {
     position: relative;
 }
-
 .team-social-icons {
     position: absolute;
     top: 50%;
@@ -70,48 +59,40 @@ body > div.guides-section > div {
     transform: translate(-50%, -50%);
     display: flex;
     gap: 8px;
-    opacity: 0; /* скрыты изначально */
+    opacity: 0;
     transition: opacity 0.3s ease;
 }
-
-/* Показывать иконки при наведении на контейнер */
 .image-container:hover .team-social-icons {
     opacity: 1;
 }
-
 .team-social-btn {
     width:40px;
     height:40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: transparent; /* прозрачный фон */
+    background-color: transparent;
     border: 1px solid #7AB730;
     border: radius 1px;
     cursor: pointer;
     transition:.3s all ease;
     text-decoration: none;
 }
-
 .team-social-btn i {
     color: #7AB730;
     font-size: 14px;
 }
-
 .team-social-btn:hover {
     background-color: #7AB730;
 }
-  
 .team-social-btn:hover i {
     color: #fff;
 }
-
 .card-info {
     background-color: #fff;
     padding: 20px;
     text-align: center;
 }
-
 .name {
     text-overflow: ellipsis;
     overflow: hidden;
@@ -130,7 +111,6 @@ body > div.guides-section > div {
     color: rgb(101, 101, 101);
     margin: 8px;
 }
-  
 @media(max-width:768px){
     .guides-row{
         justify-content: center ;

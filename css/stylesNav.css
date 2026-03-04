@@ -7,25 +7,20 @@
     padding: 1rem 2rem;
     position: relative;
 }
-
 .logo {
     text-decoration: none;
 }
-  
 .logo-title {
     margin: 0;
     font-size: 1.8rem;
     font-weight: bold;
 }
-  
 .travel {
     color: #212121;
 }
-
 .bar {
     color: #7AB730;
 }
-
 .menu-toggle {
     display: none;
     background: none;
@@ -33,25 +28,19 @@
     font-size: 2rem;
     cursor: pointer;
 }
-
 .navbar-menu {
     display: flex;
     gap: 1.5rem;
 }
-
 .nav-link {
     text-decoration: none;
     color: #000;
     font-weight: normal;
 }
-  
 .nav-link.active {
     color: #7AB730;
 }
-
 @media (max-width: 900px) {
-    
-    /* Показываем кнопку-гамбургер */
     .menu-toggle {
         display: block;
         background: none;
@@ -61,8 +50,6 @@
         padding: 0;
         margin-left: auto;
     }
-  
-    /* Меню скрыто по умолчанию на мобильных */
     .navbar-menu {
         position: absolute;
         top: calc(100% + 10px);
@@ -76,7 +63,6 @@
         width: max-content; 
         z-index: 1000;
     }
-  
     .navbar-menu.show {
         display: flex;
     }
